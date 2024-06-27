@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    border: 3px solid cornflowerblue;
+    padding: 0 2em 1em;
+
+    background-color: white;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid aliceblue;
+    padding: 0 2em 1em;
+    background: linear-gradient(-45deg, #46bae0, #163c68, #09759c, #039170);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  color: rgb(254, 255, 250);
+ margin-top: 20%;
+
+}
+h1 { 
+    font-size: 150%; 
+    color: aliceblue;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 120%;
+    margin-bottom: .25em;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 6em;
+    text-align: right;
+    margin-right: 1em;
+}
+input {
+    margin-right: 0.5em;
+}
+.message {
+    color: aliceblue;
+}
+@keyframes gradient {
+    0% {
+      /*this means 0% horizontal position and 50% vertical position of the backgroud colors*/
+      background-position: 0% 50%;
+    }
+    50% {
+      /*this means 100% horizontal position and 50% vertical position of the backgroud colors*/
+      background-position: 100% 50%;
+    }
+    100% {
+      /*this means 0% horizontal position and 50% vertical position of the backgroud colors*/
+      background-position: 0% 50%;
+    }
+  }
